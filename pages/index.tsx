@@ -48,7 +48,7 @@ const Home: NextPage = () => {
 		"align-items": "center",
 		"justify-content": "center",
 		display: "flex",
-		height: "100%",
+		height: "100vh",
 		"flex-direction": "column"}
 	);
 
@@ -105,14 +105,6 @@ const Home: NextPage = () => {
 				<p style={textColor}>{downText}</p>
 				<p style={textColor}>{downValue}</p>
 			</div>
-			<style global jsx>{`
-				html,
-				body,
-				body > div:first-child,
-				div#__next {
-				height: 100%;
-				}
-		`}</style>
 		</>
 	);
 }
